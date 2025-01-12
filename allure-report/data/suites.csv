@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3644","validateSuccessLogin","All Tests Suite","Sun Jan 12 02:42:49 EET 2025","passed","Sun Jan 12 02:42:53 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateSuccessLogin"
+"","4085","validateTheTwoProductsAddedSuccessfully","All Tests Suite","Sun Jan 12 02:43:08 EET 2025","failed","Sun Jan 12 02:43:12 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateTheTwoProductsAddedSuccessfully"
+"","11401","validateProductOneAddedSuccessfully","All Tests Suite","Sun Jan 12 02:42:53 EET 2025","broken","Sun Jan 12 02:43:04 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateProductOneAddedSuccessfully"
+"","2110","validateSuccessSignUp","All Tests Suite","Sun Jan 12 02:42:47 EET 2025","passed","Sun Jan 12 02:42:49 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateSuccessSignUp"
+"","1817","validateSuccessfulPurchase","All Tests Suite","Sun Jan 12 02:43:12 EET 2025","passed","Sun Jan 12 02:43:14 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateSuccessfulPurchase"
+"","3840","validateSecondProductAddedSuccessfully","All Tests Suite","Sun Jan 12 02:43:04 EET 2025","passed","Sun Jan 12 02:43:08 EET 2025","HappyScenarioTests","All Tests","HappyScenarioTests","validateSecondProductAddedSuccessfully"

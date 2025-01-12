@@ -67,7 +67,7 @@ This project automates the testing of key functionalities on the Demoblaze websi
    ```
 3. Open the test file containing the scenarios.
 4. Execute the tests using TestNG. You can do this by:
-   - Right-clicking the TestNG XML file and selecting **Run**.
+   - Right-clicking the TestExecution XML file and selecting **Run**.
    - Using the Maven command:
      ```bash
      mvn test
@@ -79,12 +79,20 @@ This project automates the testing of key functionalities on the Demoblaze websi
 - **Test Classes:** Each scenario is implemented in separate methods for modularity.
 - **Assertions:** Validations are performed using TestNG assertions.
 - **Test Data:** Hardcoded in the test methods (can be externalized for scalability).
-- **Browser Configurations:** Tests use ChromeDriver, but can be extended to support other browsers.
+- **Browser Configurations:** Tests use EdgeDriver, but can be extended to support other browsers.
 
 ---
 
 ## Reporting
-TestNG generates a default HTML report upon execution. You can find the report in the `test-output` folder of the project.
+TestNG generates a default HTML report upon execution. You can find the report in the `allure-report` folder of the project.
+To generate new report after running the tests, run the following commands
+ ```bash
+ allure generate allure-results -o allure-report --clean
+ ```
+```
+allure open allure-report
+```
+
 
 ---
 
